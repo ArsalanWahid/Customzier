@@ -26,7 +26,47 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="raI-gE-Bah">
-                                <rect key="frame" x="0.0" y="64" width="160" height="603"/>
+                                <rect key="frame" x="-160" y="64" width="160" height="603"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick Device" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3Z-YO-LMU">
+                                        <rect key="frame" x="8" y="30" width="104" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5lt-PY-1TR">
+                                        <rect key="frame" x="0.0" y="59" width="160" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    </pickerView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skin Picker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNA-qC-Qkt">
+                                        <rect key="frame" x="8" y="202" width="104" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Flb-iu-kn6">
+                                        <rect key="frame" x="8" y="242" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="skin1"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJm-up-Ldn">
+                                        <rect key="frame" x="81" y="242" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="skin2"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXf-EW-ZPJ">
+                                        <rect key="frame" x="8" y="286" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="skin3"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9J-BH-gmN">
+                                        <rect key="frame" x="81" y="286" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="skin4"/>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="7Q5-bp-PrT"/>
@@ -39,7 +79,7 @@
                             <constraint firstItem="Fm1-td-F9a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="U7F-Wf-Vby"/>
                             <constraint firstItem="Fm1-td-F9a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WCV-wf-KnY"/>
                             <constraint firstItem="raI-gE-Bah" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="X1b-Dc-Oev"/>
-                            <constraint firstItem="raI-gE-Bah" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XZN-ji-LIB"/>
+                            <constraint firstItem="raI-gE-Bah" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-160" id="XZN-ji-LIB"/>
                             <constraint firstItem="raI-gE-Bah" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="y9t-L3-tp0"/>
                             <constraint firstItem="Fm1-td-F9a" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zzG-5P-haC"/>
                         </constraints>

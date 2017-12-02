@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var _menuOpen = false
+    
+    ///MARK:- Outlets
+    @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
+    
+    
+    //MARK:- UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +27,23 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    
+    //MARK:-Actions
+    
+    @IBAction func openMenu(_ sender: Any) {
+        
+        if _menuOpen{
+        //Shows the side menu
+        leadingConstraint.constant = -160
+             UIView.animate(withDuration: 0.3, animations: {self.view.layoutIfNeeded()})
+        }else{
+            leadingConstraint.constant = 0
+            UIView.animate(withDuration: 0.3, animations: {self.view.layoutIfNeeded()})
+        }
+       
+        _menuOpen = !_menuOpen
+        
+    }
+    
 }
 

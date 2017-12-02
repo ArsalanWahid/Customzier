@@ -25,12 +25,22 @@
                                     <constraint firstAttribute="width" secondItem="Fm1-td-F9a" secondAttribute="height" multiplier="125:201" id="X6h-4l-6kc"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="raI-gE-Bah">
+                                <rect key="frame" x="0.0" y="64" width="160" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="7Q5-bp-PrT"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Fm1-td-F9a" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6yv-Gf-XFr"/>
                             <constraint firstItem="Fm1-td-F9a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="U7F-Wf-Vby"/>
                             <constraint firstItem="Fm1-td-F9a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WCV-wf-KnY"/>
+                            <constraint firstItem="raI-gE-Bah" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="X1b-Dc-Oev"/>
+                            <constraint firstItem="raI-gE-Bah" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XZN-ji-LIB"/>
+                            <constraint firstItem="raI-gE-Bah" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="y9t-L3-tp0"/>
                             <constraint firstItem="Fm1-td-F9a" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zzG-5P-haC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
